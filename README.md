@@ -26,7 +26,7 @@ from importantlib import ResourceIntensiveThing, foo_loader
 from otherlib import expensive_connection_maker
 from smartpool import SmartPool, pooled, force_pooling
 
-# Here, marke pooled a function that makes a thing.
+# Here, mark pooled a function that makes a thing.
 @pooled()
 def my_pooled_thing(something):
     """ Makes a thing. Whoof, what a task! """
