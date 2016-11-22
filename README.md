@@ -23,7 +23,7 @@ Pooling with `SmartPool` is simple.
 
 ```Python
 from importantlib import ResourceIntensiveThing, foo_loader
-from otherlib imoprt expensive_connection_maker
+from otherlib import expensive_connection_maker
 from smartpool import SmartPool, pooled, force_pooling
 
 # Here, marke pooled a function that makes a thing.
